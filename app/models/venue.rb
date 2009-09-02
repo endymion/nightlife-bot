@@ -1,3 +1,3 @@
 class Venue < ActiveRecord::Base
-  #validates_presence_of :name, :city, :state, :country, :address, :source
+  validates_presence_of :name, :city, :state, :country, :address, :source
 end
