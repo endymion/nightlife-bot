@@ -1592,3 +1592,17 @@ Processing VenuesController#create to application/json (for 127.0.0.1 at 2009-09
 
 Processing VenuesController#create to application/json (for 127.0.0.1 at 2009-09-02 14:47:19) [POST]
   Parameters: {"venue"=>{"name"=>"Space", "city"=>"miami", "country"=>"usa", "address"=>"900 biscayne bay", "source"=>"boty", "state"=>"florida"}}
+  [4;36;1mVenue Load (0.5ms)[0m   [0;1mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 127.0.0.1 at 2009-09-02 14:52:06) [GET]
+  [4;36;1mVenue Load (0.6ms)[0m   [0;1mSELECT * FROM "venues" [0m
+
+
+Processing VenuesController#index to application/json (for 127.0.0.1 at 2009-09-02 14:59:42) [GET]
+  [4;35;1mVenue Create (0.6ms)[0m   [0mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES('Space', 'miami', '2009-09-02 19:00:21.433150', 'usa', '900 biscayne bay', 'boty', 'florida', '2009-09-02 19:00:21.433150')[0m
+
+
+Processing VenuesController#create to application/json (for 127.0.0.1 at 2009-09-02 15:00:21) [POST]
+  Parameters: {"venue"=>{"name"=>"Space", "city"=>"miami", "country"=>"usa", "address"=>"900 biscayne bay", "source"=>"boty", "state"=>"florida"}}
