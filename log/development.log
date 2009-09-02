@@ -751,3 +751,588 @@ Migrating to InitialVenueSchema (20090902163056)
   [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM "schema_migrations"[0m
   [4;36;1mSQL (2.4ms)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20090902163056')[0m
   [4;35;1mSQL (2.2ms)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20090704140326')[0m
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-09-02 13:32:46) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+
+ActionController::UnknownAction (No action responded to index. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-02 13:37:19) [GET]
+
+ActionController::RoutingError (No route matches "/users/.xml" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#show to xml (for 127.0.0.1 at 2009-09-02 13:37:23) [GET]
+  Parameters: {"format"=>"xml", "action"=>"show", "id"=>"index", "controller"=>"users"}
+
+ActionController::UnknownAction (No action responded to show. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#show to xml (for 127.0.0.1 at 2009-09-02 13:37:29) [GET]
+  Parameters: {"format"=>"xml", "action"=>"show", "id"=>"user", "controller"=>"users"}
+
+ActionController::UnknownAction (No action responded to show. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#show to xml (for 127.0.0.1 at 2009-09-02 13:37:32) [GET]
+  Parameters: {"format"=>"xml", "action"=>"show", "id"=>"0", "controller"=>"users"}
+
+ActionController::UnknownAction (No action responded to show. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#show to xml (for 127.0.0.1 at 2009-09-02 13:41:04) [GET]
+  Parameters: {"format"=>"xml", "action"=>"show", "id"=>"user", "controller"=>"users"}
+
+ActionController::UnknownAction (No action responded to show. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#show to xml (for 127.0.0.1 at 2009-09-02 13:41:05) [GET]
+  Parameters: {"format"=>"xml", "action"=>"show", "id"=>"user", "controller"=>"users"}
+
+ActionController::UnknownAction (No action responded to show. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#show to xml (for 127.0.0.1 at 2009-09-02 13:41:06) [GET]
+  Parameters: {"format"=>"xml", "action"=>"show", "id"=>"user", "controller"=>"users"}
+
+ActionController::UnknownAction (No action responded to show. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#show to xml (for 127.0.0.1 at 2009-09-02 13:41:11) [GET]
+  Parameters: {"format"=>"xml", "action"=>"show", "id"=>"index", "controller"=>"users"}
+
+ActionController::UnknownAction (No action responded to show. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#show to xml (for 127.0.0.1 at 2009-09-02 13:41:13) [GET]
+  Parameters: {"format"=>"xml", "action"=>"show", "id"=>"index", "controller"=>"users"}
+
+ActionController::UnknownAction (No action responded to show. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-09-02 13:41:24) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+
+ActionController::UnknownAction (No action responded to index. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-09-02 13:41:25) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+
+ActionController::UnknownAction (No action responded to index. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-09-02 13:41:25) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+
+ActionController::UnknownAction (No action responded to index. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-09-02 13:41:26) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+
+ActionController::UnknownAction (No action responded to index. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-09-02 13:41:40) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+
+ActionController::UnknownAction (No action responded to index. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-09-02 13:41:55) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+
+ActionController::UnknownAction (No action responded to index. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-09-02 13:41:55) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+
+ActionController::UnknownAction (No action responded to index. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-09-02 13:41:56) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+
+ActionController::UnknownAction (No action responded to index. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-09-02 13:41:56) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+
+ActionController::UnknownAction (No action responded to index. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-09-02 13:41:56) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+
+ActionController::UnknownAction (No action responded to index. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-09-02 13:41:56) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+
+ActionController::UnknownAction (No action responded to index. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-09-02 13:41:57) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+
+ActionController::UnknownAction (No action responded to index. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-09-02 13:41:57) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+
+ActionController::UnknownAction (No action responded to index. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-09-02 13:41:57) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+
+ActionController::UnknownAction (No action responded to index. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-09-02 13:41:57) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+
+ActionController::UnknownAction (No action responded to index. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-09-02 13:41:57) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+
+ActionController::UnknownAction (No action responded to index. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-09-02 13:41:57) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+
+ActionController::UnknownAction (No action responded to index. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-09-02 13:41:57) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+
+ActionController::UnknownAction (No action responded to index. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-02 13:42:02) [GET]
+
+ActionController::RoutingError (No route matches "/venues" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2009-09-02 13:42:21) [GET]
+  Parameters: {"action"=>"show", "controller"=>"venues"}
+
+NoMethodError (undefined method `respond_to' for VenueController:Class):
+  app/controllers/venues_controller.rb:2
+
+Rendered rescues/_trace (26.8ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2009-09-02 13:42:22) [GET]
+  Parameters: {"action"=>"show", "controller"=>"venues"}
+
+NoMethodError (undefined method `respond_to' for VenueController:Class):
+  app/controllers/venues_controller.rb:2
+
+Rendered rescues/_trace (25.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2009-09-02 13:43:02) [GET]
+  Parameters: {"action"=>"show", "controller"=>"venues"}
+
+NoMethodError (undefined method `respond_to' for VenueController:Class):
+  app/controllers/venues_controller.rb:2
+
+Rendered rescues/_trace (76.9ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2009-09-02 13:52:09) [GET]
+  Parameters: {"action"=>"show", "controller"=>"venues"}
+
+NoMethodError (undefined method `respond_to' for VenueController:Class):
+  app/controllers/venues_controller.rb:2
+
+Rendered rescues/_trace (25.7ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2009-09-02 13:52:09) [GET]
+  Parameters: {"action"=>"show", "controller"=>"venues"}
+
+NoMethodError (undefined method `respond_to' for VenueController:Class):
+  app/controllers/venues_controller.rb:2
+
+Rendered rescues/_trace (25.9ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+LoadError (Expected /Users/ivan/rails/nightlife-bot/app/controllers/venues_controller.rb to define VenuesController):
+  
+
+
+LoadError (Expected /Users/ivan/rails/nightlife-bot/app/controllers/venues_controller.rb to define VenuesController):
+  
+
+
+LoadError (Expected /Users/ivan/rails/nightlife-bot/app/controllers/venues_controller.rb to define VenuesController):
+  
+
+
+LoadError (Expected /Users/ivan/rails/nightlife-bot/app/controllers/venues_controller.rb to define VenuesController):
+  
+
+
+LoadError (Expected /Users/ivan/rails/nightlife-bot/app/controllers/venues_controller.rb to define VenuesController):
+  
+
+
+LoadError (Expected /Users/ivan/rails/nightlife-bot/app/controllers/venues_controller.rb to define VenuesController):
+  
+
+
+LoadError (Expected /Users/ivan/rails/nightlife-bot/app/controllers/venues_controller.rb to define VenuesController):
+  
+
+
+LoadError (Expected /Users/ivan/rails/nightlife-bot/app/controllers/venues_controller.rb to define VenuesController):
+  
+
+
+LoadError (Expected /Users/ivan/rails/nightlife-bot/app/controllers/venues_controller.rb to define VenuesController):
+  
+
+
+LoadError (Expected /Users/ivan/rails/nightlife-bot/app/controllers/venues_controller.rb to define VenuesController):
+  
+
+
+LoadError (Expected /Users/ivan/rails/nightlife-bot/app/controllers/venues_controller.rb to define VenuesController):
+  
+
+
+LoadError (Expected /Users/ivan/rails/nightlife-bot/app/controllers/venues_controller.rb to define VenuesController):
+  
+
+
+LoadError (Expected /Users/ivan/rails/nightlife-bot/app/controllers/venues_controller.rb to define VenuesController):
+  
+
+
+AbstractController::ActionNotFound (The action 'show' could not be found):
+  
+
+
+AbstractController::ActionNotFound (The action 'show' could not be found):
+  
+
+
+AbstractController::ActionNotFound (The action 'show' could not be found):
+  
+
+
+AbstractController::ActionNotFound (The action 'show' could not be found):
+  
+
+
+AbstractController::ActionNotFound (The action 'show' could not be found):
+  
+
+
+AbstractController::ActionNotFound (The action 'show' could not be found):
+  
+
+
+AbstractController::ActionNotFound (The action 'show' could not be found):
+  
+
+  [4;36;1mVenue Load (0.5ms)[0m   [0;1mSELECT * FROM "venues" [0m
+
+ActionView::MissingTemplate (Missing template venues/index - {:formats=>[:html], :locales=>[:en]} - partial: false.erb in view path /Users/ivan/rails/nightlife-bot/app/views):
+  app/controllers/venues_controller.rb:5:in `index'
+
+
+ActionController::RoutingError (No route matches "/venues/index.xml" with {:method=>:get}):
+  
+
+
+ActionController::RoutingError (No route matches "/venues/index.json" with {:method=>:get}):
+  
+
+
+ActionController::RoutingError (No route matches "/venues/index.json" with {:method=>:get}):
+  
+
+
+ActionController::RoutingError (No route matches "/venues/index.json" with {:method=>:get}):
+  
+
+
+ActionController::RoutingError (No route matches "/venues/index.json" with {:method=>:get}):
+  
+
+  [4;35;1mVenue Load (0.4ms)[0m   [0mSELECT * FROM "venues" [0m
+
+ActionView::MissingTemplate (Missing template venues/index - {:formats=>[:html], :locales=>[:en]} - partial: false.erb in view path /Users/ivan/rails/nightlife-bot/app/views):
+  app/controllers/venues_controller.rb:5:in `index'
+
+  [4;36;1mVenue Load (0.5ms)[0m   [0;1mSELECT * FROM "venues" [0m
+
+ActionView::MissingTemplate (Missing template venues/index - {:formats=>[:html], :locales=>[:en]} - partial: false.erb in view path /Users/ivan/rails/nightlife-bot/app/views):
+  app/controllers/venues_controller.rb:5:in `index'
+
+  [4;35;1mVenue Load (0.4ms)[0m   [0mSELECT * FROM "venues" [0m
+
+ActionView::MissingTemplate (Missing template venues/index - {:formats=>[:html], :locales=>[:en]} - partial: false.erb in view path /Users/ivan/rails/nightlife-bot/app/views):
+  app/controllers/venues_controller.rb:5:in `index'
+
+
+AbstractController::ActionNotFound (The action 'show' could not be found):
+  
+
+
+AbstractController::ActionNotFound (The action 'formar=xml' could not be found):
+  
+
+
+AbstractController::ActionNotFound (The action 'show' could not be found):
+  
+
+
+AbstractController::ActionNotFound (The action 'show' could not be found):
+  
+
+
+AbstractController::ActionNotFound (The action 'show' could not be found):
+  
+
+
+AbstractController::ActionNotFound (The action 'show' could not be found):
+  
+
+
+AbstractController::ActionNotFound (The action 'show' could not be found):
+  
+
+
+AbstractController::ActionNotFound (The action 'show' could not be found):
+  
+
+  [4;36;1mVenue Load (1.3ms)[0m   [0;1mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 127.0.0.1 at 2009-09-02 13:57:22) [GET]
+  Parameters: {"action"=>"index", "controller"=>"venues"}
+  [4;35;1mVenue Load (0.4ms)[0m   [0mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 127.0.0.1 at 2009-09-02 13:57:23) [GET]
+  Parameters: {"action"=>"index", "controller"=>"venues"}
+  [4;36;1mVenue Load (0.4ms)[0m   [0;1mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 127.0.0.1 at 2009-09-02 13:57:24) [GET]
+  Parameters: {"action"=>"index", "controller"=>"venues"}
+
+AbstractController::ActionNotFound (The action 'indesd' could not be found):
+  
+
+Rendering   (406)
+
+
+Processing VenuesController#new to text/html (for 127.0.0.1 at 2009-09-02 13:58:54) [GET]
+  Parameters: {"action"=>"new", "controller"=>"venues"}
+
+
+Processing VenuesController#new to */* (for 127.0.0.1 at 2009-09-02 14:01:18) [GET]
+  Parameters: {"action"=>"new", "controller"=>"venues"}
+
+
+Processing VenuesController#new to */* (for 127.0.0.1 at 2009-09-02 14:02:13) [GET]
+  Parameters: {"action"=>"new", "controller"=>"venues"}
+
+
+Processing VenuesController#new to */* (for 127.0.0.1 at 2009-09-02 14:04:44) [GET]
+  Parameters: {"name"=>"space", "action"=>"new", "controller"=>"venues"}
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+
+Processing VenuesController#create to */* (for 127.0.0.1 at 2009-09-02 14:11:38) [POST]
+  Parameters: {"venue"=>{":address"=>"900 biscayne", ":state"=>"FL", ":city"=>"Miami", ":name"=>"space"}}
+
+
+Processing VenuesController#create to */* (for 127.0.0.1 at 2009-09-02 14:11:59) [POST]
+  Parameters: {"venue"=>{":Address"=>"900 biscayne", ":state"=>"FL", ":city"=>"Miami", ":name"=>"space"}}
+
+
+Processing VenuesController#create to */* (for 127.0.0.1 at 2009-09-02 14:12:13) [POST]
+  Parameters: {"venues"=>{":address"=>"900 biscayne"}, "venue"=>{":state"=>"FL", ":city"=>"Miami", ":name"=>"space"}}
+
+
+Processing VenuesController#create to */* (for 127.0.0.1 at 2009-09-02 14:12:48) [POST]
+  Parameters: {"venue"=>{":name"=>"space"}}
+
+
+Processing VenuesController#create to */* (for 127.0.0.1 at 2009-09-02 14:13:23) [POST]
+  Parameters: {"venue"=>{":name"=>"space venue[:state]=FL venue[:city]=Miami venue[:address]=900 biscayne "}}
+
+
+Processing VenuesController#new to */* (for 127.0.0.1 at 2009-09-02 14:15:07) [POST]
+  Parameters: {"venue"=>{":name"=>"space"}}
+
+
+Processing VenuesController#new to application/xml (for 127.0.0.1 at 2009-09-02 14:15:44) [POST]
+  Parameters: {"venue"=>{":name"=>"space"}}
+
+
+Processing VenuesController#new to application/xml (for 127.0.0.1 at 2009-09-02 14:15:55) [POST]
+  Parameters: {"venue"=>{"name"=>"space"}}
+
+
+Processing VenuesController#new to application/xml (for 127.0.0.1 at 2009-09-02 14:16:08) [POST]
+  Parameters: {"venue"=>{"name"=>"space"}}
+
+
+Processing VenuesController#create to application/xml (for 127.0.0.1 at 2009-09-02 14:16:13) [POST]
+  Parameters: {"venue"=>{"name"=>"space"}}
+
+
+Processing VenuesController#create to application/xml (for 127.0.0.1 at 2009-09-02 14:16:19) [POST]
+  Parameters: {"venue"=>{"name"=>"space"}}
+
+
+Processing VenuesController#create to application/xml (for 127.0.0.1 at 2009-09-02 14:16:25) [POST]
+  Parameters: {"venue"=>{":name"=>"space"}}
+
+
+Processing VenuesController#create to */* (for 127.0.0.1 at 2009-09-02 14:16:40) [POST]
+  Parameters: {"venue"=>{":name"=>"space"}}
+
+
+Processing VenuesController#create to */* (for 127.0.0.1 at 2009-09-02 14:16:47) [POST]
+  Parameters: {"venue"=>{"name"=>"space"}}
+
+
+Processing VenuesController#create to */* (for 127.0.0.1 at 2009-09-02 14:16:54) [POST]
+  Parameters: {"venue"=>{"name"=>"space"}}
+
+
+Processing VenuesController#create to */* (for 127.0.0.1 at 2009-09-02 14:16:55) [POST]
+  Parameters: {"venue"=>{"name"=>"space"}}
+
+
+Processing VenuesController#create to */* (for 127.0.0.1 at 2009-09-02 14:16:58) [POST]
+  Parameters: {"venue"=>{"name"=>"space"}}
+
+
+Processing VenuesController#create to */* (for 127.0.0.1 at 2009-09-02 14:17:05) [POST]
+  Parameters: {"venue"=>{"name"=>"space"}}

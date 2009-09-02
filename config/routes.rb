@@ -6,7 +6,7 @@ ActionController::Routing::Routes.draw do |map|
 
   map.resource :account, :controller => "users"
   map.resources :users
-
+  map.resource :venues
   # Sample of regular route:
   #   map.connect 'products/:id', :controller => 'catalog', :action => 'view'
   # Keep in mind you can assign values other than :controller and :action
