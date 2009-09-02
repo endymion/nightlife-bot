@@ -11,7 +11,7 @@ class VenuesController < ApplicationController
     end
 
     def create
-      respond_with(@venue = Venue.create(params[:user]))
+      respond_with(@venue = Venue.create(params[:venue]))
     end
 
     def edit

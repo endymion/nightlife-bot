@@ -1398,3 +1398,168 @@ Migrating to InitialVenueSchema (20090902163056)
 [0m
   [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("users")[0m
   [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("venues")[0m
+
+AbstractController::ActionNotFound (The action 'show' could not be found):
+  
+
+
+AbstractController::ActionNotFound (The action 'show' could not be found):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::RoutingError (No route matches "/events/new" with {:method=>:post}):
+  
+
+
+ActionController::RoutingError (No route matches "/events/" with {:method=>:post}):
+  
+
+
+ActionController::RoutingError (No route matches "/events/create" with {:method=>:post}):
+  
+
+
+ActionController::RoutingError (No route matches "/events/" with {:method=>:post}):
+  
+
+
+AbstractController::ActionNotFound (The action 'show' could not be found):
+  
+
+
+
+Processing VenuesController#create to application/json (for 127.0.0.1 at 2009-09-02 14:29:20) [POST]
+  Parameters: {"name"=>"james"}
+
+
+Processing VenuesController#create to application/json (for 127.0.0.1 at 2009-09-02 14:29:33) [POST]
+  Parameters: {"name"=>"james"}
+
+
+Processing VenuesController#create to application/json (for 127.0.0.1 at 2009-09-02 14:30:09) [POST]
+  Parameters: {"venue"=>{"name"=>"james"}}
+
+
+Processing VenuesController#create to application/json (for 127.0.0.1 at 2009-09-02 14:30:40) [POST]
+  Parameters: {"source"=>"james"}
+
+
+Processing VenuesController#create to application/json (for 127.0.0.1 at 2009-09-02 14:30:53) [POST]
+  Parameters: {"source>"=>"james"}
+
+
+Processing VenuesController#create to application/json (for 127.0.0.1 at 2009-09-02 14:31:03) [POST]
+  Parameters: {":source"=>">james"}
+
+
+Processing VenuesController#create to application/json (for 127.0.0.1 at 2009-09-02 14:31:47) [POST]
+  Parameters: {":source"=>">james"}
+
+
+Processing VenuesController#create to application/json (for 127.0.0.1 at 2009-09-02 14:32:03) [POST]
+  Parameters: {"source>"=>"james"}
+
+
+Processing VenuesController#create to application/json (for 127.0.0.1 at 2009-09-02 14:32:10) [POST]
+  Parameters: {"source"=>"james"}
+
+
+Processing VenuesController#create to application/json (for 127.0.0.1 at 2009-09-02 14:32:53) [POST]
+  Parameters: {"source"=>"james"}
+
+
+Processing VenuesController#create to application/json (for 127.0.0.1 at 2009-09-02 14:32:59) [POST]
+  Parameters: {"venue"=>nil, "source"=>"james"}
+
+ActionController::RoutingError (No route matches "/venu127.0.0.1:300" with {:method=>:post}):
+  
+
+
+
+Processing VenuesController#create to application/json (for 127.0.0.1 at 2009-09-02 14:33:28) [POST]
+  Parameters: {"name"=>"space", "source"=>"james"}
+
+
+Processing VenuesController#create to application/json (for 127.0.0.1 at 2009-09-02 14:33:48) [POST]
+  Parameters: {"name"=>"space", "source"=>"james"}
+
+
+Processing VenuesController#create to application/json (for 127.0.0.1 at 2009-09-02 14:34:00) [POST]
+  Parameters: {"name"=>"space", "source"=>"james"}
+  [4;36;1mVenue Create (1.2ms)[0m   [0;1mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES(NULL, NULL, '2009-09-02 18:34:15.482503', NULL, NULL, NULL, NULL, '2009-09-02 18:34:15.482503')[0m
+
+NoMethodError (undefined method `venue_url' for #<VenuesController:0x26bbed8>):
+  app/controllers/venues_controller.rb:14:in `create'
+
+  [4;35;1mVenue Create (0.5ms)[0m   [0mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES(NULL, NULL, '2009-09-02 18:34:23.391835', NULL, NULL, NULL, NULL, '2009-09-02 18:34:23.391835')[0m
+
+NoMethodError (undefined method `venue_url' for #<VenuesController:0x249d124>):
+  app/controllers/venues_controller.rb:14:in `create'
+
+  [4;36;1mVenue Create (0.3ms)[0m   [0;1mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES(NULL, NULL, '2009-09-02 18:34:27.170196', NULL, NULL, NULL, NULL, '2009-09-02 18:34:27.170196')[0m
+
+NoMethodError (undefined method `venue_url' for #<VenuesController:0x26d9618>):
+  app/controllers/venues_controller.rb:14:in `create'
+
+  [4;35;1mVenue Create (0.4ms)[0m   [0mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES(NULL, NULL, '2009-09-02 18:35:10.306536', NULL, NULL, NULL, NULL, '2009-09-02 18:35:10.306536')[0m
+
+NoMethodError (undefined method `venue_url' for #<VenuesController:0x24cb5ec>):
+  app/controllers/venues_controller.rb:14:in `create'
+
+  [4;36;1mVenue Create (0.6ms)[0m   [0;1mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES(NULL, NULL, '2009-09-02 18:35:20.009162', NULL, NULL, NULL, NULL, '2009-09-02 18:35:20.009162')[0m
+
+NoMethodError (undefined method `venue_url' for #<VenuesController:0x270a72c>):
+  app/controllers/venues_controller.rb:14:in `create'
+
+  [4;35;1mVenue Create (0.3ms)[0m   [0mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES(NULL, NULL, '2009-09-02 18:35:29.201841', NULL, NULL, NULL, NULL, '2009-09-02 18:35:29.201841')[0m
+
+NoMethodError (undefined method `venue_url' for #<VenuesController:0x24cf19c>):
+  app/controllers/venues_controller.rb:14:in `create'
+
+  [4;36;1mVenue Create (0.4ms)[0m   [0;1mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES(NULL, NULL, '2009-09-02 18:35:37.161521', NULL, NULL, NULL, NULL, '2009-09-02 18:35:37.161521')[0m
+
+NoMethodError (undefined method `venue_url' for #<VenuesController:0x276d2f0>):
+  app/controllers/venues_controller.rb:14:in `create'
+
+  [4;35;1mVenue Create (0.4ms)[0m   [0mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES(NULL, NULL, '2009-09-02 18:36:14.074215', NULL, NULL, 'james', NULL, '2009-09-02 18:36:14.074215')[0m
+
+NoMethodError (undefined method `venue_url' for #<VenuesController:0x24e6270>):
+  app/controllers/venues_controller.rb:14:in `create'
+
+  [4;36;1mVenue Create (0.4ms)[0m   [0;1mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES(NULL, NULL, '2009-09-02 18:36:29.191148', NULL, NULL, 'james', NULL, '2009-09-02 18:36:29.191148')[0m
+
+
+Processing VenuesController#create to application/json (for 127.0.0.1 at 2009-09-02 14:36:29) [POST]
+  Parameters: {"venue"=>{"source"=>"james"}}
