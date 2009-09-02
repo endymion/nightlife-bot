@@ -98,3 +98,300 @@ Migrating to CreateUsers (20090704140326)
 [0m
   [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM "schema_migrations"[0m
   [4;36;1mSQL (1.6ms)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20090704140326')[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-09-01 21:31:24) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+
+ActionController::UnknownAction (No action responded to new. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-09-01 21:31:25) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+
+ActionController::UnknownAction (No action responded to new. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-09-01 21:31:26) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+
+ActionController::UnknownAction (No action responded to new. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-09-01 21:31:26) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+
+ActionController::UnknownAction (No action responded to new. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-09-01 21:31:27) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+
+ActionController::UnknownAction (No action responded to new. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-09-01 21:31:27) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+
+ActionController::UnknownAction (No action responded to new. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-09-01 21:31:27) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+
+ActionController::UnknownAction (No action responded to new. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-09-01 21:31:27) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+
+ActionController::UnknownAction (No action responded to new. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-09-01 21:31:28) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+
+ActionController::UnknownAction (No action responded to new. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-09-01 21:31:28) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+
+ActionController::UnknownAction (No action responded to new. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-09-01 21:31:28) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+
+ActionController::UnknownAction (No action responded to new. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-09-01 21:31:28) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+
+ActionController::UnknownAction (No action responded to new. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-09-01 21:31:28) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+
+ActionController::UnknownAction (No action responded to new. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-09-01 21:31:29) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+
+ActionController::UnknownAction (No action responded to new. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-09-01 21:31:29) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+
+ActionController::UnknownAction (No action responded to new. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-09-01 21:31:29) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+
+ActionController::UnknownAction (No action responded to new. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-09-01 21:31:29) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+
+ActionController::UnknownAction (No action responded to new. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-09-01 21:31:30) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+
+ActionController::UnknownAction (No action responded to new. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-09-01 21:31:34) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+
+ActionController::UnknownAction (No action responded to new. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-09-01 21:31:35) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+
+ActionController::UnknownAction (No action responded to new. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-09-01 21:31:37) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+
+ActionController::UnknownAction (No action responded to new. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-09-01 21:31:37) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+
+ActionController::UnknownAction (No action responded to new. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-09-01 21:31:38) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+
+ActionController::UnknownAction (No action responded to new. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-09-01 21:31:38) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+
+ActionController::UnknownAction (No action responded to new. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-09-01 21:31:38) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+
+ActionController::UnknownAction (No action responded to new. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-09-01 21:31:38) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+
+ActionController::UnknownAction (No action responded to new. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-09-01 21:31:38) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+
+ActionController::UnknownAction (No action responded to new. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-09-01 21:31:39) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+
+ActionController::UnknownAction (No action responded to new. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-09-01 21:31:39) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+
+ActionController::UnknownAction (No action responded to new. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-09-01 21:31:40) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+
+ActionController::UnknownAction (No action responded to new. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-09-01 21:31:40) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+
+ActionController::UnknownAction (No action responded to new. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-09-01 21:31:40) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+
+ActionController::UnknownAction (No action responded to new. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-09-01 21:31:40) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+
+ActionController::UnknownAction (No action responded to new. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
