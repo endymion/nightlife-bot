@@ -6,11 +6,12 @@ class InitialVenueSchema < ActiveRecord::Migration
       t.string  :state
       t.string  :country
       t.string  :address
+      t.string  :source
       t.timestamps
     end
   end
 
   def self.down
-    drop_table :venue
+    drop_table :venues
   end
 end
