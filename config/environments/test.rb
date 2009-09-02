@@ -29,3 +29,4 @@ config.action_mailer.delivery_method = :test
 
 config.gem 'redgreen'
 config.gem 'factory-girl'
+config.gem 'shoulda'
