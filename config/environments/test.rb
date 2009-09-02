@@ -27,6 +27,8 @@ config.action_mailer.delivery_method = :test
 # like if you have constraints or database-specific column types
 # config.active_record.schema_format = :sql
 
+@github = "http://gems.github.com"
+
 config.gem 'redgreen'
-config.gem 'factory-girl'
-config.gem 'shoulda'
+config.gem "thoughtbot-factory_girl", :lib    => "factory_girl", :source => @github
+config.gem 'thoughtbot-shoulda', :lib => 'shoulda', :source => @github
