@@ -1,0 +1,109 @@
+Loaded suite /usr/bin/rcov
+Started
+[32m.[0m[32m.[0m
+Finished in 0.002263 seconds.
+
+[32m2 tests, 2 assertions, 0 failures, 0 errors[0m
+================================================================================
+app/controllers/venues_controller.rb
+================================================================================
+   class VenuesController < ApplicationController
+     respond_to :xml, :json
+     protect_from_forgery :only => [:update, :destroy] 
+   
+       def index
+!!       respond_with(@venues = Venue.all)
+!!     end
+   
+       def new
+!!       respond_with(@venue = Venue.new)
+!!     end
+   
+       def create
+!!       respond_with(@venue = Venue.create(params[:venue]))
+!!     end
+   
+       def edit
+!!       respond_with(@venue = Venue.find(params[:id]))
+!!     end
+   
+       def update
+!!       @venue = Venue.find(params[:id])
+!!       @venue.update_attributes(params[:venue])
+!!       respond_with(@venue)
+!!     end
+!!   
+!! end
+================================================================================
+app/controllers/application_controller.rb
+================================================================================
+   # Filters added to this controller apply to all controllers in the application.
+   # Likewise, all the methods added will be available for all controllers.
+   
+   class ApplicationController < ActionController::Base
+     helper :all # include all helpers, all the time
+     #protect_from_forgery # See ActionController::RequestForgeryProtection for details
+   
+     # Scrub sensitive parameters from your log
+     # filter_parameter_logging :password
+   
+   #  filter_parameter_logging :password, :password_confirmation
+   #  helper_method :current_user_session, :current_user
+   
+     private
+       def current_user_session
+!!       return @current_user_session if defined?(@current_user_session)
+!!       @current_user_session = UserSession.find
+!!     end
+   
+       def current_user
+!!       return @current_user if defined?(@current_user)
+!!       @current_user = current_user_session && current_user_session.user
+!!     end
+!! 
+!! end
+================================================================================
+app/models/venue.rb
+================================================================================
+   class Venue < ActiveRecord::Base
+     validates_presence_of :name, :city, :state, :country, :address, :source
+   end
+================================================================================
+app/helpers/users_helper.rb
+================================================================================
+   module UsersHelper
+   end
+================================================================================
+app/models/user_session.rb
+================================================================================
+   class UserSession < Authlogic::Session::Base
+   end
+================================================================================
+app/helpers/user_sessions_helper.rb
+================================================================================
+   module UserSessionsHelper
+   end
+================================================================================
+app/models/user.rb
+================================================================================
+   class User < ActiveRecord::Base
+     acts_as_authentic do |c|
+       # c.my_config_option = my_value # for available options see documentation in: Authlogic::ActsAsAuthentic
+     end # block optional
+   end
+================================================================================
+app/controllers/user_sessions_controller.rb
+================================================================================
+   class UserSessionsController < ApplicationController
+   end
+================================================================================
+app/helpers/application_helper.rb
+================================================================================
+   # Methods added to this helper will be available to all templates in the application.
+   module ApplicationHelper
+   end
+================================================================================
+app/controllers/users_controller.rb
+================================================================================
+   class UsersController < ApplicationController
+   end

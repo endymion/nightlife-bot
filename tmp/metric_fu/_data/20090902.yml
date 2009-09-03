@@ -1,0 +1,576 @@
+--- 
+:rcov: 
+  app/controllers/venues_controller.rb: 
+    :percent_run: 48
+    :lines: 
+    - :was_run: true
+      :content: "   class VenuesController < ApplicationController"
+    - :was_run: true
+      :content: "     respond_to :xml, :json"
+    - :was_run: true
+      :content: "     protect_from_forgery :only => [:update, :destroy] "
+    - :was_run: true
+      :content: "   "
+    - :was_run: true
+      :content: "       def index"
+    - :was_run: false
+      :content: "         respond_with(@venues = Venue.all)"
+    - :was_run: false
+      :content: "       end"
+    - :was_run: true
+      :content: "   "
+    - :was_run: true
+      :content: "       def new"
+    - :was_run: false
+      :content: "         respond_with(@venue = Venue.new)"
+    - :was_run: false
+      :content: "       end"
+    - :was_run: true
+      :content: "   "
+    - :was_run: true
+      :content: "       def create"
+    - :was_run: false
+      :content: "         respond_with(@venue = Venue.create(params[:venue]))"
+    - :was_run: false
+      :content: "       end"
+    - :was_run: true
+      :content: "   "
+    - :was_run: true
+      :content: "       def edit"
+    - :was_run: false
+      :content: "         respond_with(@venue = Venue.find(params[:id]))"
+    - :was_run: false
+      :content: "       end"
+    - :was_run: true
+      :content: "   "
+    - :was_run: true
+      :content: "       def update"
+    - :was_run: false
+      :content: "         @venue = Venue.find(params[:id])"
+    - :was_run: false
+      :content: "         @venue.update_attributes(params[:venue])"
+    - :was_run: false
+      :content: "         respond_with(@venue)"
+    - :was_run: false
+      :content: "       end"
+    - :was_run: false
+      :content: "     "
+    - :was_run: false
+      :content: "   end"
+  app/helpers/user_sessions_helper.rb: 
+    :percent_run: 100
+    :lines: 
+    - :was_run: true
+      :content: "   module UserSessionsHelper"
+    - :was_run: true
+      :content: "   end"
+  app/controllers/user_sessions_controller.rb: 
+    :percent_run: 100
+    :lines: 
+    - :was_run: true
+      :content: "   class UserSessionsController < ApplicationController"
+    - :was_run: true
+      :content: "   end"
+  :global_percent_run: 69.9
+  app/helpers/users_helper.rb: 
+    :percent_run: 100
+    :lines: 
+    - :was_run: true
+      :content: "   module UsersHelper"
+    - :was_run: true
+      :content: "   end"
+  app/models/user_session.rb: 
+    :percent_run: 100
+    :lines: 
+    - :was_run: true
+      :content: "   class UserSession < Authlogic::Session::Base"
+    - :was_run: true
+      :content: "   end"
+  app/controllers/application_controller.rb: 
+    :percent_run: 68
+    :lines: 
+    - :was_run: true
+      :content: "   # Filters added to this controller apply to all controllers in the application."
+    - :was_run: true
+      :content: "   # Likewise, all the methods added will be available for all controllers."
+    - :was_run: true
+      :content: "   "
+    - :was_run: true
+      :content: "   class ApplicationController < ActionController::Base"
+    - :was_run: true
+      :content: "     helper :all # include all helpers, all the time"
+    - :was_run: true
+      :content: "     #protect_from_forgery # See ActionController::RequestForgeryProtection for details"
+    - :was_run: true
+      :content: "   "
+    - :was_run: true
+      :content: "     # Scrub sensitive parameters from your log"
+    - :was_run: true
+      :content: "     # filter_parameter_logging :password"
+    - :was_run: true
+      :content: "   "
+    - :was_run: true
+      :content: "   #  filter_parameter_logging :password, :password_confirmation"
+    - :was_run: true
+      :content: "   #  helper_method :current_user_session, :current_user"
+    - :was_run: true
+      :content: "   "
+    - :was_run: true
+      :content: "     private"
+    - :was_run: true
+      :content: "       def current_user_session"
+    - :was_run: false
+      :content: "         return @current_user_session if defined?(@current_user_session)"
+    - :was_run: false
+      :content: "         @current_user_session = UserSession.find"
+    - :was_run: false
+      :content: "       end"
+    - :was_run: true
+      :content: "   "
+    - :was_run: true
+      :content: "       def current_user"
+    - :was_run: false
+      :content: "         return @current_user if defined?(@current_user)"
+    - :was_run: false
+      :content: "         @current_user = current_user_session && current_user_session.user"
+    - :was_run: false
+      :content: "       end"
+    - :was_run: false
+      :content: "   "
+    - :was_run: false
+      :content: "   end"
+  app/models/venue.rb: 
+    :percent_run: 100
+    :lines: 
+    - :was_run: true
+      :content: "   class Venue < ActiveRecord::Base"
+    - :was_run: true
+      :content: "     validates_presence_of :name, :city, :state, :country, :address, :source"
+    - :was_run: true
+      :content: "   end"
+  app/models/user.rb: 
+    :percent_run: 100
+    :lines: 
+    - :was_run: true
+      :content: "   class User < ActiveRecord::Base"
+    - :was_run: true
+      :content: "     acts_as_authentic do |c|"
+    - :was_run: true
+      :content: "       # c.my_config_option = my_value # for available options see documentation in: Authlogic::ActsAsAuthentic"
+    - :was_run: true
+      :content: "     end # block optional"
+    - :was_run: true
+      :content: "   end"
+  app/helpers/application_helper.rb: 
+    :percent_run: 100
+    :lines: 
+    - :was_run: true
+      :content: "   # Methods added to this helper will be available to all templates in the application."
+    - :was_run: true
+      :content: "   module ApplicationHelper"
+    - :was_run: true
+      :content: "   end"
+  app/controllers/users_controller.rb: 
+    :percent_run: 100
+    :lines: 
+    - :was_run: true
+      :content: "   class UsersController < ApplicationController"
+    - :was_run: true
+      :content: "   end"
+:reek: 
+  :matches: 
+  - :code_smells: 
+    - :type: Duplication
+      :method: ApplicationController#current_user
+      :message: calls current_user_session multiple times
+    :file_path: app/controllers/application_controller.rb
+  - :code_smells: 
+    - :type: Duplication
+      :method: VenuesController#update
+      :message: calls params multiple times
+    :file_path: app/controllers/venues_controller.rb
+  - :code_smells: 
+    - :type: Uncommunicative Name
+      :method: User#block
+      :message: has the variable name 'c'
+    :file_path: app/models/user.rb
+:roodi: 
+  :problems: []
+
+  :total: 
+  - Found 0 errors.
+:saikuro: 
+  :methods: 
+  - :complexity: 2
+    :lines: 3
+    :name: ApplicationController#current_user
+  - :complexity: 2
+    :lines: 3
+    :name: ApplicationController#current_user_session
+  - :complexity: 1
+    :lines: 2
+    :name: VenuesController#edit
+  - :complexity: 1
+    :lines: 4
+    :name: VenuesController#update
+  - :complexity: 1
+    :lines: 2
+    :name: VenuesController#create
+  - :complexity: 1
+    :lines: 2
+    :name: VenuesController#new
+  - :complexity: 1
+    :lines: 2
+    :name: VenuesController#index
+  :files: 
+  - :filename: venues_controller.rb
+    :classes: 
+    - :complexity: 5
+      :methods: 
+      - :complexity: 1
+        :lines: 4
+        :name: VenuesController#update
+      - :complexity: 1
+        :lines: 2
+        :name: VenuesController#edit
+      - :complexity: 1
+        :lines: 2
+        :name: VenuesController#create
+      - :complexity: 1
+        :lines: 2
+        :name: VenuesController#new
+      - :complexity: 1
+        :lines: 2
+        :name: VenuesController#index
+      :class_name: VenuesController
+      :lines: 26
+  - :filename: application_controller.rb
+    :classes: 
+    - :complexity: 0
+      :methods: []
+
+      :class_name: ""
+      :lines: 1
+    - :complexity: 4
+      :methods: 
+      - :complexity: 2
+        :lines: 3
+        :name: ApplicationController#current_user
+      - :complexity: 2
+        :lines: 3
+        :name: ApplicationController#current_user_session
+      :class_name: ApplicationController
+      :lines: 21
+  - :filename: user.rb
+    :classes: 
+    - :complexity: 1
+      :methods: []
+
+      :class_name: User
+      :lines: 4
+  - :filename: user_sessions_helper.rb
+    :classes: 
+    - :complexity: 0
+      :methods: []
+
+      :class_name: UserSessionsHelper
+      :lines: 1
+  - :filename: users_helper.rb
+    :classes: 
+    - :complexity: 0
+      :methods: []
+
+      :class_name: UsersHelper
+      :lines: 1
+  - :filename: application_helper.rb
+    :classes: 
+    - :complexity: 0
+      :methods: []
+
+      :class_name: ""
+      :lines: 1
+    - :complexity: 0
+      :methods: []
+
+      :class_name: ApplicationHelper
+      :lines: 1
+  - :filename: user_session.rb
+    :classes: 
+    - :complexity: 0
+      :methods: []
+
+      :class_name: UserSession
+      :lines: 1
+  - :filename: users_controller.rb
+    :classes: 
+    - :complexity: 0
+      :methods: []
+
+      :class_name: UsersController
+      :lines: 1
+  - :filename: user_sessions_controller.rb
+    :classes: 
+    - :complexity: 0
+      :methods: []
+
+      :class_name: UserSessionsController
+      :lines: 1
+  - :filename: venue.rb
+    :classes: 
+    - :complexity: 0
+      :methods: []
+
+      :class_name: Venue
+      :lines: 2
+  :classes: 
+  - :complexity: 5
+    :lines: 26
+    :name: VenuesController
+    :defs: 
+    - :complexity: 1
+      :lines: 2
+      :name: VenuesController#index
+    - :complexity: 1
+      :lines: 2
+      :name: VenuesController#new
+    - :complexity: 1
+      :lines: 2
+      :name: VenuesController#create
+    - :complexity: 1
+      :lines: 2
+      :name: VenuesController#edit
+    - :complexity: 1
+      :lines: 4
+      :name: VenuesController#update
+  - :complexity: 4
+    :lines: 21
+    :name: ApplicationController
+    :defs: 
+    - :complexity: 2
+      :lines: 3
+      :name: ApplicationController#current_user_session
+    - :complexity: 2
+      :lines: 3
+      :name: ApplicationController#current_user
+  - :complexity: 1
+    :lines: 4
+    :name: User
+  - :complexity: 0
+    :lines: 1
+    :name: ""
+  - :complexity: 0
+    :lines: 1
+    :name: ApplicationHelper
+  - :complexity: 0
+    :lines: 1
+    :name: UserSession
+  - :complexity: 0
+    :lines: 1
+    :name: UsersHelper
+  - :complexity: 0
+    :lines: 1
+    :name: UserSessionsHelper
+  - :complexity: 0
+    :lines: 1
+    :name: UsersController
+  - :complexity: 0
+    :lines: 1
+    :name: UserSessionsController
+  - :complexity: 0
+    :lines: 1
+    :name: ""
+  - :complexity: 0
+    :lines: 2
+    :name: Venue
+:stats: 
+  :codeLOC: 52
+  :testLOC: 28
+  :lines: 
+  - :loc_per_method: 3
+    :methods: 7
+    :lines: 56
+    :name: Controllers
+    :classes: 4
+    :loc: 37
+    :methods_per_class: 1
+  - :loc_per_method: 0
+    :methods: 0
+    :lines: 7
+    :name: Helpers
+    :classes: 0
+    :loc: 6
+    :methods_per_class: 0
+  - :loc_per_method: 0
+    :methods: 0
+    :lines: 10
+    :name: Models
+    :classes: 3
+    :loc: 9
+    :methods_per_class: 0
+  - :loc_per_method: 0
+    :methods: 0
+    :lines: 16
+    :name: Functional tests
+    :classes: 2
+    :loc: 12
+    :methods_per_class: 0
+  - :loc_per_method: 0
+    :methods: 0
+    :lines: 21
+    :name: Unit tests
+    :classes: 4
+    :loc: 16
+    :methods_per_class: 0
+  - :loc_per_method: 9
+    :methods: 7
+    :lines: 110
+    :name: Total
+    :classes: 13
+    :loc: 80
+    :methods_per_class: 0
+  :code_to_test_ratio: 0.5
+:churn: 
+  :changes: 
+  - :times_changed: 11
+    :file_path: log/development.log
+  - :times_changed: 7
+    :file_path: db/development.sqlite3
+  - :times_changed: 5
+    :file_path: config/routes.rb
+  - :times_changed: 5
+    :file_path: config/environments/test.rb
+:flog: 
+  :average: 3.8
+  :total: 42.1
+  :pages: 
+  - :average_score: 5.0
+    :scanned_methods: 
+    - :score: 9.7
+      :operators: 
+      - :score: 3.2
+        :operator: params
+      - :score: 2.8
+        :operator: "[]"
+      - :score: 1.2
+        :operator: update_attributes
+      - :score: 1.2
+        :operator: assignment
+      - :score: 1.2
+        :operator: find
+      - :score: 1.2
+        :operator: respond_with
+      :name: VenuesController#update
+    - :score: 6.2
+      :operators: 
+      - :score: 1.8
+        :operator: params
+      - :score: 1.6
+        :operator: "[]"
+      - :score: 1.4
+        :operator: assignment
+      - :score: 1.4
+        :operator: create
+      - :score: 1.2
+        :operator: respond_with
+      :name: VenuesController#create
+    - :score: 6.2
+      :operators: 
+      - :score: 1.8
+        :operator: params
+      - :score: 1.6
+        :operator: "[]"
+      - :score: 1.4
+        :operator: assignment
+      - :score: 1.4
+        :operator: find
+      - :score: 1.2
+        :operator: respond_with
+      :name: VenuesController#edit
+    - :score: 3.0
+      :operators: 
+      - :score: 1.4
+        :operator: new
+      - :score: 1.4
+        :operator: assignment
+      - :score: 1.2
+        :operator: respond_with
+      :name: VenuesController#new
+    - :score: 3.0
+      :operators: 
+      - :score: 1.4
+        :operator: assignment
+      - :score: 1.4
+        :operator: all
+      - :score: 1.2
+        :operator: respond_with
+      :name: VenuesController#index
+    - :score: 2.2
+      :operators: 
+      - :score: 1.1
+        :operator: respond_to
+      - :score: 1.1
+        :operator: protect_from_forgery
+      :name: VenuesController#none
+    :score: 30.1
+    :path: /app/controllers/venues_controller.rb
+    :highest_score: 9.7
+  - :average_score: 3.1
+    :scanned_methods: 
+    - :score: 4.9
+      :operators: 
+      - :score: 2.8
+        :operator: current_user_session
+      - :score: 2.4
+        :operator: branch
+      - :score: 1.3
+        :operator: user
+      - :score: 1.2
+        :operator: assignment
+      :name: ApplicationController#current_user
+    - :score: 2.2
+      :operators: 
+      - :score: 1.1
+        :operator: helper
+      - :score: 1.1
+        :operator: private
+      :name: ApplicationController#none
+    - :score: 2.1
+      :operators: 
+      - :score: 1.2
+        :operator: assignment
+      - :score: 1.2
+        :operator: branch
+      - :score: 1.2
+        :operator: find
+      :name: ApplicationController#current_user_session
+    :score: 9.2
+    :path: /app/controllers/application_controller.rb
+    :highest_score: 4.9
+  - :average_score: 1.8
+    :scanned_methods: 
+    - :score: 1.8
+      :operators: 
+      - :score: 1.1
+        :operator: assignment
+      - :score: 1.0
+        :operator: acts_as_authentic
+      - :score: 1.0
+        :operator: branch
+      :name: User#none
+    :score: 1.8
+    :path: /app/models/user.rb
+    :highest_score: 1.8
+  - :average_score: 1.0
+    :scanned_methods: 
+    - :score: 1.0
+      :operators: 
+      - :score: 1.0
+        :operator: validates_presence_of
+      :name: Venue#none
+    :score: 1.0
+    :path: /app/models/venue.rb
+    :highest_score: 1.0
+:flay: 
+  :matches: []
+
+  :total_score: "0"

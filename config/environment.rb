@@ -10,6 +10,12 @@ Rails::Initializer.run do |config|
   
   config.gem "authlogic"
   config.gem "levenshtein"
-  
+  config.gem 'redgreen'
+  config.gem "thoughtbot-factory_girl", :lib    => "factory_girl", :source => @github
+  config.gem 'thoughtbot-shoulda', :lib => 'shoulda', :source => @github
+
+
+  config.gem 'thoughtbot-shoulda', :lib => 'shoulda' , :source => "http://gems.github.com"
+  config.gem 'jscruggs-metric_fu', :version => '1.1.5', :lib => 'metric_fu', :source => 'http://gems.github.com'
   config.time_zone = 'UTC'
 end

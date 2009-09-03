@@ -32,3 +32,7 @@ config.action_mailer.delivery_method = :test
 config.gem 'redgreen'
 config.gem "thoughtbot-factory_girl", :lib    => "factory_girl", :source => @github
 config.gem 'thoughtbot-shoulda', :lib => 'shoulda', :source => @github
+config.gem 'jscruggs-metric_fu', :version => '1.1.5', :lib => 'metric_fu', :source => @github
+
+config.gem 'thoughtbot-shoulda', :lib => 'shoulda' , :source => "http://gems.github.com"
+config.gem 'jscruggs-metric_fu', :version => '1.1.5', :lib => 'metric_fu', :source => 'http://gems.github.com'

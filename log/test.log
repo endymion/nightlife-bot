@@ -1,0 +1,777 @@
+  [4;36;1mVenue Load (0.2ms)[0m   [0;1mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:29:17) [GET]
+  [4;36;1mVenue Load (0.2ms)[0m   [0;1mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:29:56) [GET]
+  [4;36;1mVenue Load (0.2ms)[0m   [0;1mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:30:37) [GET]
+  [4;36;1mVenue Load (0.2ms)[0m   [0;1mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:30:46) [GET]
+  [4;36;1mVenue Load (0.2ms)[0m   [0;1mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:32:30) [GET]
+  [4;36;1mVenue Load (0.2ms)[0m   [0;1mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:36:15) [GET]
+  [4;36;1mVenue Load (0.2ms)[0m   [0;1mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:36:47) [GET]
+  [4;36;1mVenue Load (0.2ms)[0m   [0;1mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:37:48) [GET]
+  [4;36;1mVenue Load (0.2ms)[0m   [0;1mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:37:58) [GET]
+  [4;36;1mVenue Load (0.2ms)[0m   [0;1mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:38:11) [GET]
+  [4;36;1mVenue Load (0.2ms)[0m   [0;1mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:39:38) [GET]
+  [4;36;1mVenue Load (0.2ms)[0m   [0;1mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:39:49) [GET]
+  [4;36;1mVenue Create (0.4ms)[0m   [0;1mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES('9B', 'Miami', '2009-09-02 20:40:00.902569', 'USA', '900 Biscayne', 'boty', 'FL', '2009-09-02 20:40:00.902569')[0m
+  [4;35;1mVenue Load (0.2ms)[0m   [0mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:40:00) [GET]
+  [4;36;1mVenue Load (0.1ms)[0m   [0;1mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:40:00) [GET]
+  [4;36;1mVenue Create (0.4ms)[0m   [0;1mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES('9B', 'Miami', '2009-09-02 20:40:24.551809', 'USA', '900 Biscayne', 'boty', 'FL', '2009-09-02 20:40:24.551809')[0m
+  [4;35;1mVenue Load (0.2ms)[0m   [0mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:40:24) [GET]
+  [4;36;1mVenue Load (0.1ms)[0m   [0;1mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:40:24) [GET]
+  [4;36;1mVenue Create (0.4ms)[0m   [0;1mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES('9B', 'Miami', '2009-09-02 20:41:00.299825', 'USA', '900 Biscayne', 'boty', 'FL', '2009-09-02 20:41:00.299825')[0m
+  [4;35;1mVenue Load (0.2ms)[0m   [0mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:41:00) [GET]
+  [4;36;1mVenue Load (0.1ms)[0m   [0;1mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:41:00) [GET]
+  [4;36;1mVenue Create (0.5ms)[0m   [0;1mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES('9B', 'Miami', '2009-09-02 20:41:29.641696', 'USA', '900 Biscayne', 'boty', 'FL', '2009-09-02 20:41:29.641696')[0m
+  [4;35;1mVenue Load (0.3ms)[0m   [0mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:41:29) [GET]
+  [4;36;1mVenue Load (0.1ms)[0m   [0;1mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:41:29) [GET]
+Rendering   (406)
+
+
+Processing VenuesController#create to text/html (for 0.0.0.0 at 2009-09-02 16:44:50) [POST]
+  Parameters: {"name"=>"spacy", "city"=>"Miami", "country"=>"USA", "source"=>"boty", "address"=>"1234 ln", "state"=>"FL"}
+  [4;36;1mVenue Create (0.4ms)[0m   [0;1mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES('9B', 'Miami', '2009-09-02 20:44:50.212986', 'USA', '900 Biscayne', 'boty', 'FL', '2009-09-02 20:44:50.212986')[0m
+  [4;35;1mVenue Load (0.2ms)[0m   [0mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:44:50) [GET]
+  [4;36;1mVenue Load (0.1ms)[0m   [0;1mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:44:50) [GET]
+Rendering   (406)
+
+
+Processing VenuesController#new to text/html (for 0.0.0.0 at 2009-09-02 16:44:50) [GET]
+Rendering   (406)
+
+
+Processing VenuesController#create to text/html (for 0.0.0.0 at 2009-09-02 16:45:05) [POST]
+  Parameters: {"name"=>"spacy", "city"=>"Miami", "country"=>"USA", "source"=>"boty", "address"=>"1234 ln", "state"=>"FL"}
+  [4;36;1mVenue Create (0.4ms)[0m   [0;1mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES('9B', 'Miami', '2009-09-02 20:45:05.347293', 'USA', '900 Biscayne', 'boty', 'FL', '2009-09-02 20:45:05.347293')[0m
+  [4;35;1mVenue Load (0.3ms)[0m   [0mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:45:05) [GET]
+  [4;36;1mVenue Load (0.1ms)[0m   [0;1mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:45:05) [GET]
+Rendering   (406)
+
+
+Processing VenuesController#new to text/html (for 0.0.0.0 at 2009-09-02 16:45:05) [GET]
+Rendering   (406)
+
+
+Processing VenuesController#create to text/html (for 0.0.0.0 at 2009-09-02 16:47:41) [POST]
+  Parameters: {"name"=>"spacy", "city"=>"Miami", "country"=>"USA", "source"=>"boty", "address"=>"1234 ln", "state"=>"FL"}
+  [4;36;1mVenue Create (0.4ms)[0m   [0;1mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES('spacy', 'Miami', '2009-09-02 20:47:41.155451', 'USA', '900 Biscayne', 'boty', 'FL', '2009-09-02 20:47:41.155451')[0m
+  [4;35;1mVenue Load (0.2ms)[0m   [0mSELECT * FROM "venues" WHERE ("venues"."id" = 1) [0m
+Rendering   (406)
+
+
+Processing VenuesController#edit to text/html (for 0.0.0.0 at 2009-09-02 16:47:41) [PUT]
+  Parameters: {"id"=>1}
+  [4;36;1mVenue Create (0.5ms)[0m   [0;1mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES('9B', 'Miami', '2009-09-02 20:47:41.190501', 'USA', '900 Biscayne', 'boty', 'FL', '2009-09-02 20:47:41.190501')[0m
+  [4;35;1mVenue Load (0.3ms)[0m   [0mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:47:41) [GET]
+  [4;36;1mVenue Load (0.2ms)[0m   [0;1mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:47:41) [GET]
+Rendering   (406)
+
+
+Processing VenuesController#new to text/html (for 0.0.0.0 at 2009-09-02 16:47:41) [GET]
+Rendering   (406)
+
+
+Processing VenuesController#create to text/html (for 0.0.0.0 at 2009-09-02 16:47:58) [POST]
+  Parameters: {"name"=>"spacy", "city"=>"Miami", "country"=>"USA", "source"=>"boty", "address"=>"1234 ln", "state"=>"FL"}
+  [4;36;1mVenue Create (0.4ms)[0m   [0;1mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES('spacy', 'Miami', '2009-09-02 20:47:58.637159', 'USA', '900 Biscayne', 'boty', 'FL', '2009-09-02 20:47:58.637159')[0m
+  [4;35;1mVenue Load (0.2ms)[0m   [0mSELECT * FROM "venues" WHERE ("venues"."id" = 1) [0m
+Rendering   (406)
+
+
+Processing VenuesController#edit to text/html (for 0.0.0.0 at 2009-09-02 16:47:58) [PUT]
+  Parameters: {"id"=>1}
+  [4;36;1mVenue Create (0.3ms)[0m   [0;1mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES('9B', 'Miami', '2009-09-02 20:47:58.642767', 'USA', '900 Biscayne', 'boty', 'FL', '2009-09-02 20:47:58.642767')[0m
+  [4;35;1mVenue Load (0.2ms)[0m   [0mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:47:58) [GET]
+  [4;36;1mVenue Load (0.1ms)[0m   [0;1mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:47:58) [GET]
+Rendering   (406)
+
+
+Processing VenuesController#new to text/html (for 0.0.0.0 at 2009-09-02 16:47:58) [GET]
+Rendering   (406)
+
+
+Processing VenuesController#create to text/html (for 0.0.0.0 at 2009-09-02 16:48:42) [POST]
+  Parameters: {"name"=>"spacy", "city"=>"Miami", "country"=>"USA", "source"=>"boty", "address"=>"1234 ln", "state"=>"FL"}
+  [4;36;1mVenue Create (0.4ms)[0m   [0;1mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES('spacy', 'Miami', '2009-09-02 20:48:42.857170', 'USA', '900 Biscayne', 'boty', 'FL', '2009-09-02 20:48:42.857170')[0m
+  [4;35;1mVenue Load (0.2ms)[0m   [0mSELECT * FROM "venues" WHERE ("venues"."id" = 1) [0m
+Rendering   (406)
+
+
+Processing VenuesController#edit to text/html (for 0.0.0.0 at 2009-09-02 16:48:42) [PUT]
+  Parameters: {"id"=>1}
+  [4;36;1mVenue Create (0.3ms)[0m   [0;1mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES('9B', 'Miami', '2009-09-02 20:48:42.862805', 'USA', '900 Biscayne', 'boty', 'FL', '2009-09-02 20:48:42.862805')[0m
+  [4;35;1mVenue Load (0.2ms)[0m   [0mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:48:42) [GET]
+  [4;36;1mVenue Load (0.1ms)[0m   [0;1mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:48:42) [GET]
+Rendering   (406)
+
+
+Processing VenuesController#new to text/html (for 0.0.0.0 at 2009-09-02 16:48:42) [GET]
+Rendering   (406)
+
+
+Processing VenuesController#create to text/html (for 0.0.0.0 at 2009-09-02 16:48:52) [POST]
+  Parameters: {"name"=>"spacy", "city"=>"Miami", "country"=>"USA", "source"=>"boty", "address"=>"1234 ln", "state"=>"FL"}
+  [4;36;1mVenue Load (0.1ms)[0m   [0;1mSELECT * FROM "venues" WHERE ("venues"."id" = 1) [0m
+  [4;35;1mVenue Create (0.6ms)[0m   [0mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES('9B', 'Miami', '2009-09-02 20:48:52.044082', 'USA', '900 Biscayne', 'boty', 'FL', '2009-09-02 20:48:52.044082')[0m
+  [4;36;1mVenue Load (0.2ms)[0m   [0;1mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:48:52) [GET]
+  [4;35;1mVenue Load (0.1ms)[0m   [0mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:48:52) [GET]
+Rendering   (406)
+
+
+Processing VenuesController#new to text/html (for 0.0.0.0 at 2009-09-02 16:48:52) [GET]
+Rendering   (406)
+
+
+Processing VenuesController#create to text/html (for 0.0.0.0 at 2009-09-02 16:49:32) [POST]
+  Parameters: {"name"=>"spacy", "city"=>"Miami", "country"=>"USA", "source"=>"boty", "address"=>"1234 ln", "state"=>"FL"}
+  [4;36;1mVenue Create (0.4ms)[0m   [0;1mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES('spacy', 'Miami', '2009-09-02 20:49:32.234129', 'USA', '900 Biscayne', 'boty', 'FL', '2009-09-02 20:49:32.234129')[0m
+  [4;35;1mVenue Load (0.2ms)[0m   [0mSELECT * FROM "venues" WHERE ("venues"."id" = 1) [0m
+Rendering   (406)
+
+
+Processing VenuesController#edit to text/html (for 0.0.0.0 at 2009-09-02 16:49:32) [PUT]
+  Parameters: {"id"=>1}
+  [4;36;1mVenue Load (0.4ms)[0m   [0;1mSELECT * FROM "venues" WHERE ("venues"."id" = 1) [0m
+  [4;35;1mVenue Create (0.5ms)[0m   [0mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES('9B', 'Miami', '2009-09-02 20:49:32.267556', 'USA', '900 Biscayne', 'boty', 'FL', '2009-09-02 20:49:32.267556')[0m
+  [4;36;1mVenue Load (0.2ms)[0m   [0;1mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:49:32) [GET]
+  [4;35;1mVenue Load (0.4ms)[0m   [0mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:49:32) [GET]
+Rendering   (406)
+
+
+Processing VenuesController#new to text/html (for 0.0.0.0 at 2009-09-02 16:49:32) [GET]
+Rendering   (406)
+
+
+Processing VenuesController#create to text/html (for 0.0.0.0 at 2009-09-02 16:50:00) [POST]
+  Parameters: {"name"=>"spacy", "city"=>"Miami", "country"=>"USA", "source"=>"boty", "address"=>"1234 ln", "state"=>"FL"}
+  [4;36;1mVenue Create (0.4ms)[0m   [0;1mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES('spacy', 'Miami', '2009-09-02 20:50:00.962463', 'USA', '900 Biscayne', 'boty', 'FL', '2009-09-02 20:50:00.962463')[0m
+  [4;35;1mVenue Load (0.2ms)[0m   [0mSELECT * FROM "venues" WHERE ("venues"."id" = 1) [0m
+Rendering   (406)
+
+
+Processing VenuesController#edit to text/html (for 0.0.0.0 at 2009-09-02 16:50:00) [PUT]
+  Parameters: {"id"=>1}
+  [4;36;1mVenue Load (0.1ms)[0m   [0;1mSELECT * FROM "venues" WHERE ("venues"."id" = 1) [0m
+  [4;35;1mVenue Create (0.3ms)[0m   [0mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES('9B', 'Miami', '2009-09-02 20:50:00.969504', 'USA', '900 Biscayne', 'boty', 'FL', '2009-09-02 20:50:00.969504')[0m
+  [4;36;1mVenue Load (0.2ms)[0m   [0;1mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:50:00) [GET]
+  [4;35;1mVenue Load (0.2ms)[0m   [0mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:50:00) [GET]
+Rendering   (406)
+
+
+Processing VenuesController#new to text/html (for 0.0.0.0 at 2009-09-02 16:50:00) [GET]
+Rendering   (406)
+
+
+Processing VenuesController#create to text/html (for 0.0.0.0 at 2009-09-02 16:50:11) [POST]
+  Parameters: {"name"=>"spacy", "city"=>"Miami", "country"=>"USA", "source"=>"boty", "address"=>"1234 ln", "state"=>"FL"}
+  [4;36;1mVenue Create (0.4ms)[0m   [0;1mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES('spacy', 'Miami', '2009-09-02 20:50:11.819392', 'USA', '900 Biscayne', 'boty', 'FL', '2009-09-02 20:50:11.819392')[0m
+  [4;35;1mVenue Load (0.2ms)[0m   [0mSELECT * FROM "venues" WHERE ("venues"."id" = 1) [0m
+Rendering   (406)
+
+
+Processing VenuesController#edit to text/html (for 0.0.0.0 at 2009-09-02 16:50:11) [PUT]
+  Parameters: {"id"=>1}
+  [4;36;1mVenue Load (0.1ms)[0m   [0;1mSELECT * FROM "venues" WHERE ("venues"."id" = 1) [0m
+  [4;35;1mVenue Create (0.3ms)[0m   [0mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES('9B', 'Miami', '2009-09-02 20:50:11.826415', 'USA', '900 Biscayne', 'boty', 'FL', '2009-09-02 20:50:11.826415')[0m
+  [4;36;1mVenue Load (0.2ms)[0m   [0;1mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:50:11) [GET]
+  [4;35;1mVenue Load (0.1ms)[0m   [0mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:50:11) [GET]
+Rendering   (406)
+
+
+Processing VenuesController#new to text/html (for 0.0.0.0 at 2009-09-02 16:50:11) [GET]
+Rendering   (406)
+
+
+Processing VenuesController#create to text/html (for 0.0.0.0 at 2009-09-02 16:50:46) [POST]
+  Parameters: {"name"=>"spacy", "city"=>"Miami", "country"=>"USA", "source"=>"boty", "address"=>"1234 ln", "state"=>"FL"}
+  [4;36;1mVenue Create (0.4ms)[0m   [0;1mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES('spacy', 'Miami', '2009-09-02 20:50:46.946496', 'USA', '900 Biscayne', 'boty', 'FL', '2009-09-02 20:50:46.946496')[0m
+  [4;35;1mVenue Load (0.2ms)[0m   [0mSELECT * FROM "venues" WHERE ("venues"."id" = 1) [0m
+Rendering   (406)
+
+
+Processing VenuesController#edit to text/html (for 0.0.0.0 at 2009-09-02 16:50:46) [PUT]
+  Parameters: {"id"=>1}
+  [4;36;1mVenue Create (0.3ms)[0m   [0;1mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES('9B', 'Miami', '2009-09-02 20:50:46.952637', 'USA', '900 Biscayne', 'boty', 'FL', '2009-09-02 20:50:46.952637')[0m
+  [4;35;1mVenue Load (0.2ms)[0m   [0mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:50:46) [GET]
+  [4;36;1mVenue Load (0.1ms)[0m   [0;1mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:50:46) [GET]
+Rendering   (406)
+
+
+Processing VenuesController#new to text/html (for 0.0.0.0 at 2009-09-02 16:50:46) [GET]
+Rendering   (406)
+
+
+Processing VenuesController#create to text/html (for 0.0.0.0 at 2009-09-02 16:51:07) [POST]
+  Parameters: {"name"=>"spacy", "city"=>"Miami", "country"=>"USA", "source"=>"boty", "address"=>"1234 ln", "state"=>"FL"}
+  [4;36;1mVenue Create (0.4ms)[0m   [0;1mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES('spacy', 'Miami', '2009-09-02 20:51:07.470007', 'USA', '900 Biscayne', 'boty', 'FL', '2009-09-02 20:51:07.470007')[0m
+  [4;35;1mVenue Load (0.2ms)[0m   [0mSELECT * FROM "venues" WHERE ("venues"."id" = 1) [0m
+Rendering   (406)
+
+
+Processing VenuesController#edit to text/html (for 0.0.0.0 at 2009-09-02 16:51:07) [PUT]
+  Parameters: {"id"=>1}
+  [4;36;1mVenue Create (0.3ms)[0m   [0;1mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES('9B', 'Miami', '2009-09-02 20:51:07.476014', 'USA', '900 Biscayne', 'boty', 'FL', '2009-09-02 20:51:07.476014')[0m
+  [4;35;1mVenue Load (0.2ms)[0m   [0mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:51:07) [GET]
+  [4;36;1mVenue Load (0.1ms)[0m   [0;1mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:51:07) [GET]
+Rendering   (406)
+
+
+Processing VenuesController#new to text/html (for 0.0.0.0 at 2009-09-02 16:51:07) [GET]
+Rendering   (406)
+
+
+Processing VenuesController#create to text/html (for 0.0.0.0 at 2009-09-02 16:51:13) [POST]
+  Parameters: {"name"=>"spacy", "city"=>"Miami", "country"=>"USA", "source"=>"boty", "address"=>"1234 ln", "state"=>"FL"}
+  [4;36;1mVenue Create (0.5ms)[0m   [0;1mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES('spacy', 'Miami', '2009-09-02 20:51:13.373452', 'USA', '900 Biscayne', 'boty', 'FL', '2009-09-02 20:51:13.373452')[0m
+  [4;35;1mVenue Load (0.2ms)[0m   [0mSELECT * FROM "venues" WHERE ("venues"."id" = 1) [0m
+Rendering   (406)
+
+
+Processing VenuesController#edit to text/html (for 0.0.0.0 at 2009-09-02 16:51:13) [PUT]
+  Parameters: {"id"=>1}
+  [4;36;1mVenue Create (0.4ms)[0m   [0;1mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES('9B', 'Miami', '2009-09-02 20:51:13.397778', 'USA', '900 Biscayne', 'boty', 'FL', '2009-09-02 20:51:13.397778')[0m
+  [4;35;1mVenue Load (0.2ms)[0m   [0mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:51:13) [GET]
+  [4;36;1mVenue Load (0.1ms)[0m   [0;1mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:51:13) [GET]
+Rendering   (406)
+
+
+Processing VenuesController#new to text/html (for 0.0.0.0 at 2009-09-02 16:51:13) [GET]
+Rendering   (406)
+
+
+Processing VenuesController#create to text/html (for 0.0.0.0 at 2009-09-02 16:51:45) [POST]
+  Parameters: {"name"=>"spacy", "city"=>"Miami", "country"=>"USA", "source"=>"boty", "address"=>"1234 ln", "state"=>"FL"}
+  [4;36;1mVenue Create (0.4ms)[0m   [0;1mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES('spacy', 'Miami', '2009-09-02 20:51:45.726579', 'USA', '900 Biscayne', 'boty', 'FL', '2009-09-02 20:51:45.726579')[0m
+  [4;35;1mVenue Load (0.2ms)[0m   [0mSELECT * FROM "venues" WHERE ("venues"."id" = 1) [0m
+Rendering   (406)
+
+
+Processing VenuesController#edit to text/html (for 0.0.0.0 at 2009-09-02 16:51:45) [PUT]
+  Parameters: {"id"=>1}
+  [4;36;1mVenue Create (0.3ms)[0m   [0;1mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES('9B', 'Miami', '2009-09-02 20:51:45.733047', 'USA', '900 Biscayne', 'boty', 'FL', '2009-09-02 20:51:45.733047')[0m
+  [4;35;1mVenue Load (0.2ms)[0m   [0mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:51:45) [GET]
+  [4;36;1mVenue Load (0.1ms)[0m   [0;1mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:51:45) [GET]
+Rendering   (406)
+
+
+Processing VenuesController#new to text/html (for 0.0.0.0 at 2009-09-02 16:51:45) [GET]
+Rendering   (406)
+
+
+Processing VenuesController#create to text/html (for 0.0.0.0 at 2009-09-02 16:51:57) [POST]
+  Parameters: {"name"=>"spacy", "city"=>"Miami", "country"=>"USA", "source"=>"boty", "address"=>"1234 ln", "state"=>"FL"}
+  [4;36;1mVenue Create (0.4ms)[0m   [0;1mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES('spacy', 'Miami', '2009-09-02 20:51:57.175515', 'USA', '900 Biscayne', 'boty', 'FL', '2009-09-02 20:51:57.175515')[0m
+  [4;35;1mVenue Load (0.2ms)[0m   [0mSELECT * FROM "venues" WHERE ("venues"."id" = 1) [0m
+Rendering   (406)
+
+
+Processing VenuesController#edit to text/html (for 0.0.0.0 at 2009-09-02 16:51:57) [PUT]
+  Parameters: {"id"=>1}
+  [4;36;1mVenue Create (0.3ms)[0m   [0;1mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES('9B', 'Miami', '2009-09-02 20:51:57.197434', 'USA', '900 Biscayne', 'boty', 'FL', '2009-09-02 20:51:57.197434')[0m
+  [4;35;1mVenue Load (0.2ms)[0m   [0mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:51:57) [GET]
+  [4;36;1mVenue Load (0.1ms)[0m   [0;1mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:51:57) [GET]
+Rendering   (406)
+
+
+Processing VenuesController#new to text/html (for 0.0.0.0 at 2009-09-02 16:51:57) [GET]
+Rendering   (406)
+
+
+Processing VenuesController#create to text/html (for 0.0.0.0 at 2009-09-02 16:52:11) [POST]
+  Parameters: {"name"=>"spacy", "city"=>"Miami", "country"=>"USA", "source"=>"boty", "address"=>"1234 ln", "state"=>"FL"}
+  [4;36;1mVenue Create (0.4ms)[0m   [0;1mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES('spacy', 'Miami', '2009-09-02 20:52:11.316633', 'USA', '900 Biscayne', 'boty', 'FL', '2009-09-02 20:52:11.316633')[0m
+  [4;35;1mVenue Load (0.2ms)[0m   [0mSELECT * FROM "venues" WHERE ("venues"."id" = 1) [0m
+Rendering   (406)
+
+
+Processing VenuesController#edit to text/html (for 0.0.0.0 at 2009-09-02 16:52:11) [PUT]
+  Parameters: {"id"=>1}
+  [4;36;1mVenue Load (0.1ms)[0m   [0;1mSELECT * FROM "venues" WHERE ("venues"."id" = 1) [0m
+  [4;35;1mVenue Create (0.4ms)[0m   [0mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES('9B', 'Miami', '2009-09-02 20:52:11.345881', 'USA', '900 Biscayne', 'boty', 'FL', '2009-09-02 20:52:11.345881')[0m
+  [4;36;1mVenue Load (0.3ms)[0m   [0;1mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:52:11) [GET]
+  [4;35;1mVenue Load (0.1ms)[0m   [0mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:52:11) [GET]
+Rendering   (406)
+
+
+Processing VenuesController#new to text/html (for 0.0.0.0 at 2009-09-02 16:52:11) [GET]
+Rendering   (406)
+
+
+Processing VenuesController#create to text/html (for 0.0.0.0 at 2009-09-02 16:52:41) [POST]
+  Parameters: {"name"=>"spacy", "city"=>"Miami", "country"=>"USA", "source"=>"boty", "address"=>"1234 ln", "state"=>"FL"}
+  [4;36;1mVenue Create (0.4ms)[0m   [0;1mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES('spacy', 'Miami', '2009-09-02 20:52:41.337533', 'USA', '900 Biscayne', 'boty', 'FL', '2009-09-02 20:52:41.337533')[0m
+  [4;35;1mVenue Load (0.2ms)[0m   [0mSELECT * FROM "venues" WHERE ("venues"."id" = 1) [0m
+Rendering   (406)
+
+
+Processing VenuesController#edit to text/html (for 0.0.0.0 at 2009-09-02 16:52:41) [PUT]
+  Parameters: {"id"=>1}
+  [4;36;1mVenue Load (0.1ms)[0m   [0;1mSELECT * FROM "venues" WHERE ("venues"."id" = 1) [0m
+  [4;35;1mVenue Create (0.4ms)[0m   [0mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES('9B', 'Miami', '2009-09-02 20:52:41.365491', 'USA', '900 Biscayne', 'boty', 'FL', '2009-09-02 20:52:41.365491')[0m
+  [4;36;1mVenue Load (0.2ms)[0m   [0;1mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:52:41) [GET]
+  [4;35;1mVenue Load (0.1ms)[0m   [0mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:52:41) [GET]
+Rendering   (406)
+
+
+Processing VenuesController#new to text/html (for 0.0.0.0 at 2009-09-02 16:52:41) [GET]
+Rendering   (406)
+
+
+Processing VenuesController#create to text/html (for 0.0.0.0 at 2009-09-02 16:52:54) [POST]
+  Parameters: {"name"=>"spacy", "city"=>"Miami", "country"=>"USA", "source"=>"boty", "address"=>"1234 ln", "state"=>"FL"}
+  [4;36;1mVenue Create (0.4ms)[0m   [0;1mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES('spacy', 'Miami', '2009-09-02 20:52:54.729274', 'USA', '900 Biscayne', 'boty', 'FL', '2009-09-02 20:52:54.729274')[0m
+  [4;35;1mVenue Load (0.2ms)[0m   [0mSELECT * FROM "venues" WHERE ("venues"."id" = 1) [0m
+Rendering   (406)
+
+
+Processing VenuesController#edit to text/html (for 0.0.0.0 at 2009-09-02 16:52:54) [PUT]
+  Parameters: {"id"=>1}
+  [4;36;1mVenue Create (0.3ms)[0m   [0;1mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES('9B', 'Miami', '2009-09-02 20:52:54.735408', 'USA', '900 Biscayne', 'boty', 'FL', '2009-09-02 20:52:54.735408')[0m
+  [4;35;1mVenue Load (0.2ms)[0m   [0mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:52:54) [GET]
+  [4;36;1mVenue Load (0.1ms)[0m   [0;1mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:52:54) [GET]
+Rendering   (406)
+
+
+Processing VenuesController#new to text/html (for 0.0.0.0 at 2009-09-02 16:52:54) [GET]
+Rendering   (406)
+
+
+Processing VenuesController#create to text/html (for 0.0.0.0 at 2009-09-02 16:53:05) [POST]
+  Parameters: {"name"=>"spacy", "city"=>"Miami", "country"=>"USA", "source"=>"boty", "address"=>"1234 ln", "state"=>"FL"}
+  [4;36;1mVenue Create (0.4ms)[0m   [0;1mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES('spacy', 'Miami', '2009-09-02 20:53:05.493039', 'USA', '900 Biscayne', 'boty', 'FL', '2009-09-02 20:53:05.493039')[0m
+  [4;35;1mVenue Load (0.2ms)[0m   [0mSELECT * FROM "venues" WHERE ("venues"."id" = 1) [0m
+Rendering   (406)
+
+
+Processing VenuesController#edit to text/html (for 0.0.0.0 at 2009-09-02 16:53:05) [PUT]
+  Parameters: {"id"=>1}
+  [4;36;1mVenue Create (0.3ms)[0m   [0;1mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES('9B', 'Miami', '2009-09-02 20:53:05.499103', 'USA', '900 Biscayne', 'boty', 'FL', '2009-09-02 20:53:05.499103')[0m
+  [4;35;1mVenue Load (0.2ms)[0m   [0mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:53:05) [GET]
+  [4;36;1mVenue Load (0.1ms)[0m   [0;1mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:53:05) [GET]
+Rendering   (406)
+
+
+Processing VenuesController#new to text/html (for 0.0.0.0 at 2009-09-02 16:53:05) [GET]
+Rendering   (406)
+
+
+Processing VenuesController#create to text/html (for 0.0.0.0 at 2009-09-02 16:53:16) [POST]
+  Parameters: {"name"=>"spacy", "city"=>"Miami", "country"=>"USA", "source"=>"boty", "address"=>"1234 ln", "state"=>"FL"}
+  [4;36;1mVenue Create (0.4ms)[0m   [0;1mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES('spacy', 'Miami', '2009-09-02 20:53:16.259807', 'USA', '900 Biscayne', 'boty', 'FL', '2009-09-02 20:53:16.259807')[0m
+  [4;35;1mVenue Load (0.2ms)[0m   [0mSELECT * FROM "venues" WHERE ("venues"."id" = 1) [0m
+Rendering   (406)
+
+
+Processing VenuesController#edit to text/html (for 0.0.0.0 at 2009-09-02 16:53:16) [PUT]
+  Parameters: {"id"=>1}
+  [4;36;1mVenue Load (0.1ms)[0m   [0;1mSELECT * FROM "venues" WHERE ("venues"."id" = 1) [0m
+  [4;35;1mVenue Create (0.3ms)[0m   [0mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES('9B', 'Miami', '2009-09-02 20:53:16.266797', 'USA', '900 Biscayne', 'boty', 'FL', '2009-09-02 20:53:16.266797')[0m
+  [4;36;1mVenue Load (0.2ms)[0m   [0;1mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:53:16) [GET]
+  [4;35;1mVenue Load (0.1ms)[0m   [0mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:53:16) [GET]
+Rendering   (406)
+
+
+Processing VenuesController#new to text/html (for 0.0.0.0 at 2009-09-02 16:53:16) [GET]
+Rendering   (406)
+
+
+Processing VenuesController#create to text/html (for 0.0.0.0 at 2009-09-02 16:54:05) [POST]
+  Parameters: {"name"=>"spacy", "city"=>"Miami", "country"=>"USA", "source"=>"boty", "address"=>"1234 ln", "state"=>"FL"}
+  [4;36;1mVenue Create (0.4ms)[0m   [0;1mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES('spacy', 'Miami', '2009-09-02 20:54:05.226677', 'USA', '900 Biscayne', 'boty', 'FL', '2009-09-02 20:54:05.226677')[0m
+  [4;35;1mVenue Load (0.2ms)[0m   [0mSELECT * FROM "venues" WHERE ("venues"."id" = 1) [0m
+Rendering   (406)
+
+
+Processing VenuesController#edit to text/html (for 0.0.0.0 at 2009-09-02 16:54:05) [PUT]
+  Parameters: {"id"=>1}
+  [4;36;1mVenue Load (0.2ms)[0m   [0;1mSELECT * FROM "venues" WHERE ("venues"."id" = 1) [0m
+  [4;35;1mVenue Create (0.3ms)[0m   [0mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES('9B', 'Miami', '2009-09-02 20:54:05.233830', 'USA', '900 Biscayne', 'boty', 'FL', '2009-09-02 20:54:05.233830')[0m
+  [4;36;1mVenue Load (0.2ms)[0m   [0;1mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:54:05) [GET]
+  [4;35;1mVenue Load (0.1ms)[0m   [0mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:54:05) [GET]
+Rendering   (406)
+
+
+Processing VenuesController#new to text/html (for 0.0.0.0 at 2009-09-02 16:54:05) [GET]
+Rendering   (406)
+
+
+Processing VenuesController#create to text/html (for 0.0.0.0 at 2009-09-02 16:54:52) [POST]
+  Parameters: {"name"=>"spacy", "city"=>"Miami", "country"=>"USA", "source"=>"boty", "address"=>"1234 ln", "state"=>"FL"}
+  [4;36;1mVenue Create (0.4ms)[0m   [0;1mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES('spacy', 'Miami', '2009-09-02 20:54:52.055811', 'USA', '900 Biscayne', 'boty', 'FL', '2009-09-02 20:54:52.055811')[0m
+  [4;35;1mVenue Load (0.3ms)[0m   [0mSELECT * FROM "venues" WHERE ("venues"."id" = 1) [0m
+Rendering   (406)
+
+
+Processing VenuesController#edit to text/html (for 0.0.0.0 at 2009-09-02 16:54:52) [PUT]
+  Parameters: {"id"=>1}
+  [4;36;1mVenue Load (0.2ms)[0m   [0;1mSELECT * FROM "venues" WHERE ("venues"."id" = 1) [0m
+  [4;35;1mVenue Create (1.0ms)[0m   [0mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES('9B', 'Miami', '2009-09-02 20:54:52.066485', 'USA', '900 Biscayne', 'boty', 'FL', '2009-09-02 20:54:52.066485')[0m
+  [4;36;1mVenue Load (0.4ms)[0m   [0;1mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:54:52) [GET]
+  [4;35;1mVenue Load (0.2ms)[0m   [0mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:54:52) [GET]
+Rendering   (406)
+
+
+Processing VenuesController#new to text/html (for 0.0.0.0 at 2009-09-02 16:54:52) [GET]
+Rendering   (406)
+
+
+Processing VenuesController#create to text/html (for 0.0.0.0 at 2009-09-02 16:58:01) [POST]
+  Parameters: {"city"=>"Miami", "name"=>"spacy", "country"=>"USA", "source"=>"boty", "address"=>"1234 ln", "state"=>"FL"}
+  [4;36;1mVenue Create (0.4ms)[0m   [0;1mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES('spacy', 'Miami', '2009-09-02 20:58:01.813420', 'USA', '900 Biscayne', 'boty', 'FL', '2009-09-02 20:58:01.813420')[0m
+  [4;35;1mVenue Load (0.2ms)[0m   [0mSELECT * FROM "venues" WHERE ("venues"."id" = 1) [0m
+Rendering   (406)
+
+
+Processing VenuesController#edit to text/html (for 0.0.0.0 at 2009-09-02 16:58:01) [PUT]
+  Parameters: {"id"=>1}
+  [4;36;1mVenue Load (0.6ms)[0m   [0;1mSELECT * FROM "venues" WHERE ("venues"."id" = 1) [0m
+  [4;35;1mVenue Create (0.3ms)[0m   [0mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES('9B', 'Miami', '2009-09-02 20:58:01.834250', 'USA', '900 Biscayne', 'boty', 'FL', '2009-09-02 20:58:01.834250')[0m
+  [4;36;1mVenue Load (0.2ms)[0m   [0;1mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:58:01) [GET]
+  [4;35;1mVenue Load (0.1ms)[0m   [0mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 16:58:01) [GET]
+Rendering   (406)
+
+
+Processing VenuesController#new to text/html (for 0.0.0.0 at 2009-09-02 16:58:01) [GET]
+Rendering   (406)
+
+
+Processing VenuesController#create to text/html (for 0.0.0.0 at 2009-09-02 17:01:17) [POST]
+  Parameters: {"name"=>"spacy", "city"=>"Miami", "country"=>"USA", "source"=>"boty", "address"=>"1234 ln", "state"=>"FL"}
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "venues" [0m
+  [4;35;1mVenue Create (0.4ms)[0m   [0mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES('spacy', 'Miami', '2009-09-02 21:01:17.887538', 'USA', '900 Biscayne', 'boty', 'FL', '2009-09-02 21:01:17.887538')[0m
+  [4;36;1mVenue Load (0.2ms)[0m   [0;1mSELECT * FROM "venues" WHERE ("venues"."id" = 1) [0m
+Rendering   (406)
+
+
+Processing VenuesController#edit to text/html (for 0.0.0.0 at 2009-09-02 17:01:17) [PUT]
+  Parameters: {"id"=>1}
+  [4;35;1mVenue Load (0.4ms)[0m   [0mSELECT * FROM "venues" WHERE ("venues"."id" = 1) [0m
+  [4;36;1mVenue Create (0.4ms)[0m   [0;1mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES('9B', 'Miami', '2009-09-02 21:01:17.908766', 'USA', '900 Biscayne', 'boty', 'FL', '2009-09-02 21:01:17.908766')[0m
+  [4;35;1mVenue Load (0.2ms)[0m   [0mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 17:01:17) [GET]
+  [4;36;1mVenue Load (0.1ms)[0m   [0;1mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 17:01:17) [GET]
+Rendering   (406)
+
+
+Processing VenuesController#new to text/html (for 0.0.0.0 at 2009-09-02 17:01:17) [GET]
+Rendering   (406)
+
+
+Processing VenuesController#create to text/html (for 0.0.0.0 at 2009-09-02 17:01:39) [POST]
+  Parameters: {"name"=>"spacy", "city"=>"Miami", "country"=>"USA", "source"=>"boty", "address"=>"1234 ln", "state"=>"FL"}
+  [4;36;1mVenue Create (0.4ms)[0m   [0;1mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES('spacy', 'Miami', '2009-09-02 21:01:39.947035', 'USA', '900 Biscayne', 'boty', 'FL', '2009-09-02 21:01:39.947035')[0m
+  [4;35;1mVenue Load (0.2ms)[0m   [0mSELECT * FROM "venues" WHERE ("venues"."id" = 1) [0m
+Rendering   (406)
+
+
+Processing VenuesController#edit to text/html (for 0.0.0.0 at 2009-09-02 17:01:39) [PUT]
+  Parameters: {"id"=>1}
+  [4;36;1mVenue Load (0.1ms)[0m   [0;1mSELECT * FROM "venues" WHERE ("venues"."id" = 1) [0m
+  [4;35;1mVenue Create (0.3ms)[0m   [0mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES('9B', 'Miami', '2009-09-02 21:01:39.954108', 'USA', '900 Biscayne', 'boty', 'FL', '2009-09-02 21:01:39.954108')[0m
+  [4;36;1mVenue Load (0.2ms)[0m   [0;1mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 17:01:39) [GET]
+  [4;35;1mVenue Load (0.1ms)[0m   [0mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 17:01:39) [GET]
+Rendering   (406)
+
+
+Processing VenuesController#new to text/html (for 0.0.0.0 at 2009-09-02 17:01:39) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Rendering   (406)
+
+
+Processing VenuesController#create to text/html (for 0.0.0.0 at 2009-09-02 17:01:48) [POST]
+  Parameters: {"name"=>"spacy", "city"=>"Miami", "country"=>"USA", "source"=>"boty", "address"=>"1234 ln", "state"=>"FL"}
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "venues" [0m
+  [4;35;1mVenue Create (0.4ms)[0m   [0mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES('spacy', 'Miami', '2009-09-02 21:01:48.765666', 'USA', '900 Biscayne', 'boty', 'FL', '2009-09-02 21:01:48.765666')[0m
+  [4;36;1mVenue Load (0.2ms)[0m   [0;1mSELECT * FROM "venues" WHERE ("venues"."id" = 1) [0m
+Rendering   (406)
+
+
+Processing VenuesController#edit to text/html (for 0.0.0.0 at 2009-09-02 17:01:48) [PUT]
+  Parameters: {"id"=>1}
+  [4;35;1mVenue Load (0.4ms)[0m   [0mSELECT * FROM "venues" WHERE ("venues"."id" = 1) [0m
+  [4;36;1mVenue Create (13.9ms)[0m   [0;1mINSERT INTO "venues" ("name", "city", "updated_at", "country", "address", "source", "state", "created_at") VALUES('9B', 'Miami', '2009-09-02 21:01:48.775860', 'USA', '900 Biscayne', 'boty', 'FL', '2009-09-02 21:01:48.775860')[0m
+  [4;35;1mVenue Load (0.2ms)[0m   [0mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 17:01:48) [GET]
+  [4;36;1mVenue Load (0.1ms)[0m   [0;1mSELECT * FROM "venues" [0m
+Rendering   (406)
+
+
+Processing VenuesController#index to text/html (for 0.0.0.0 at 2009-09-02 17:01:48) [GET]
+Rendering   (406)
+
+
+Processing VenuesController#new to text/html (for 0.0.0.0 at 2009-09-02 17:01:48) [GET]

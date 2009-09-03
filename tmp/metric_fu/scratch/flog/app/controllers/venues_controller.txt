@@ -1,0 +1,33 @@
+    30.1: flog total
+     5.0: flog/method average
+
+     9.7: VenuesController#update
+     3.2: params
+     2.8: []
+     1.2: update_attributes
+     1.2: assignment
+     1.2: find
+     1.2: respond_with
+     6.2: VenuesController#create
+     1.8: params
+     1.6: []
+     1.4: assignment
+     1.4: create
+     1.2: respond_with
+     6.2: VenuesController#edit
+     1.8: params
+     1.6: []
+     1.4: assignment
+     1.4: find
+     1.2: respond_with
+     3.0: VenuesController#new
+     1.4: new
+     1.4: assignment
+     1.2: respond_with
+     3.0: VenuesController#index
+     1.4: assignment
+     1.4: all
+     1.2: respond_with
+     2.2: VenuesController#none
+     1.1: respond_to
+     1.1: protect_from_forgery
