@@ -3,9 +3,9 @@ require 'fileutils'
 # Load the environment
 ENV['RAILS_ENV'] = 'test'
 
-rails_root = File.dirname(__FILE__) + '/rails_root'
+Rails.root = File.dirname(__FILE__) + '/Rails.root'
 
-require "#{rails_root}/config/environment.rb"
+require "#{Rails.root}/config/environment.rb"
 
 # Load the testing framework
 require 'test_help'
@@ -13,7 +13,7 @@ silence_warnings { RAILS_ENV = ENV['RAILS_ENV'] }
 
 # Run the migrations
 ActiveRecord::Migration.verbose = false
-ActiveRecord::Migrator.migrate("#{RAILS_ROOT}/db/migrate")
+ActiveRecord::Migrator.migrate("#{Rails.root}/db/migrate")
 
 # Setup the fixtures path
 Test::Unit::TestCase.fixture_path = File.join(File.dirname(__FILE__), "fixtures")

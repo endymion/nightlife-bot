@@ -10,4 +10,5 @@ log/*.log
 tmp/**/*
 bin/*
 vendor/gems/*
+vendor/rails
 !vendor/gems/cache/

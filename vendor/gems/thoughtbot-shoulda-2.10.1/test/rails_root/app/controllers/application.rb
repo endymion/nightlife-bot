@@ -3,7 +3,7 @@
 
 class ApplicationController < ActionController::Base
   # Pick a unique cookie name to distinguish our session data from others'
-  session :session_key => '_rails_root_session_id'
+  session :session_key => '_Rails.root_session_id'
   
   def ensure_logged_in
     unless session[:logged_in]
