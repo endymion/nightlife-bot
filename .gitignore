@@ -3,4 +3,11 @@ tmp
 log/*.log
 db/*.sqlite3
 db/schema.rb
-db/database.yml
+.rake_tasks~
+config/database.yml
+doc/api
+log/*.log
+tmp/**/*
+bin/*
+vendor/gems/*
+!vendor/gems/cache/
