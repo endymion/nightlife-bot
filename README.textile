@@ -63,7 +63,7 @@ My "other events at this venue" will work properly because I can look for Events
 
 We can hopefully use the Levenshtein distance to find probable matches but each bot's owners/admins/moderators will probably want approve/reject control over all of that.  And we need to figure out how to make matching information flow around the federation, so that if I match those three records then the three records end up automatically matched in all three bots and not just in my bot.
 
-h2. The API
+h3. The API
 
 The ELS protocol specifies a 100% "RESTful" protocol, with JSON Requests to Venue data:
 
@@ -93,9 +93,6 @@ curl -i -H "Accept: application/json" http://127.0.0.1:3000/venues/
 
 h3. Query Data by Tags
 
-#PENDING
-
-h2. Gems
 
 Rails 3.0.pre
 Shoulda
